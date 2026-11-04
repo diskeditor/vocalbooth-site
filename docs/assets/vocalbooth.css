@@ -13,3 +13,4 @@
 .vb-main { max-width: 760px; }
 .vb-main .tx-card { min-height: 170px; }
 .vb-title { width: min(480px, 68vw); height: auto; display: block; }
+.vb-title { width: min(300px, 60vw); }
