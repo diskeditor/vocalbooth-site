@@ -1,0 +1,34 @@
+/* transmitter.info — builds on style.css (shared with lewsapps.com) */
+.tx-wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+.tx-head .tx-wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 28px; padding-bottom: 8px; }
+.tx-mark { width: min(360px, 62vw); height: auto; display: block; filter: drop-shadow(0 8px 14px rgba(0,0,0,.6)) drop-shadow(0 0 26px rgba(124,77,255,.18)); }
+.from { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.1; }
+.from span { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.from b { font-size: 22px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #b9a3ff; text-shadow: 0 0 14px rgba(124,77,255,.45); }
+.from a:hover { text-decoration: none; }
+
+.tx-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 18px 0 8px; }
+
+.tx-section { font-size: 15px; font-weight: 600; color: var(--subtle); margin: 28px 0 12px; }
+.tx-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.tx-card { padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 10px; border-color: color-mix(in srgb, var(--purple) 55%, transparent); }
+.tx-card h3 { margin: 0; font-size: 19px; letter-spacing: -.01em; }
+.tx-card .plat { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #fff; margin-top: -4px; }
+.tx-card p { margin: 0; color: var(--subtle); font-size: 15px; line-height: 1.55; }
+.tx-card .req { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.tx-card .btn.primary { margin-top: auto; height: 46px; justify-content: center; font-size: 15px; width: 100%; }
+
+.tx-foot { max-width: 1120px; }
+@media (max-width: 760px) { .tx-grid { grid-template-columns: 1fr; } .from b { font-size: 17px; } }
+
+/* text pages */
+.tx-page { padding: 22px 24px 26px; }
+.tx-page > * { max-width: 760px; margin-left: auto; margin-right: auto; }
+.tx-page .lead { font-size: 16px; color: var(--text); line-height: 1.6; margin-top: 0; margin-bottom: 22px; }
+.tx-box { padding: 16px 18px; margin-bottom: 16px; border-color: color-mix(in srgb, var(--purple) 55%, transparent); }
+.tx-box h4 { margin: 0 0 10px; font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--subtle); }
+.tx-box p { margin: 0 0 9px; font-size: 13.5px; line-height: 1.6; color: var(--subtle); }
+.tx-box p:last-child { margin-bottom: 0; }
+.tx-box b { color: var(--text); }
+.tx-back { display: inline-flex; margin-top: 6px; }
+.tx-page > .tx-back { margin-left: max(0px, calc((100% - 760px) / 2)); }

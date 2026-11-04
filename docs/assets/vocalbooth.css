@@ -1,0 +1,14 @@
+/* vocalbooth.nyc — builds on style.css + transmitter.css */
+.vb-brand { display: flex; align-items: center; gap: 16px; }
+.vb-brand:hover { text-decoration: none; }
+.vb-icon { width: 64px; height: 64px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,.55), 0 0 18px rgba(124,77,255,.3); }
+/* lavender 3D italic lettering */
+.vb-word {
+  font-family: "Inter", system-ui, -apple-system, sans-serif; font-weight: 900; font-style: italic;
+  font-size: clamp(34px, 6vw, 56px); letter-spacing: -.01em; line-height: 1;
+  background: linear-gradient(180deg, #e9e1ff 0%, #c3b0ff 38%, #9b7dff 62%, #7a5cf0 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 1px 0 #5a3fc4) drop-shadow(0 2px 0 #4a33a6) drop-shadow(0 3px 0 #3a2886) drop-shadow(0 8px 10px rgba(0,0,0,.7));
+}
+.vb-main { max-width: 760px; }
+.vb-main .tx-card { min-height: 170px; }
