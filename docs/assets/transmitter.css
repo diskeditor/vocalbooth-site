@@ -32,3 +32,8 @@
 .tx-box b { color: var(--text); }
 .tx-back { display: inline-flex; margin-top: 6px; }
 .tx-page > .tx-back { margin-left: max(0px, calc((100% - 760px) / 2)); }
+
+/* Parabolic logo */
+.from img.parabolic { width: 150px; height: auto; display: block; margin-top: 4px; }
+footer.site .foot-p { display: inline-flex; align-items: center; gap: 12px; }
+footer.site .foot-p img.parabolic { width: 104px; height: auto; display: block; }
