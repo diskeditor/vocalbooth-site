@@ -14,3 +14,7 @@
 .vb-main .tx-card { min-height: 170px; }
 .vb-title { width: min(480px, 68vw); height: auto; display: block; }
 .vb-title { width: min(300px, 60vw); }
+/* Connect */
+.vb-brand { gap: 14px; }
+.vb-brand .vb-icon { width: 58px; height: 58px; border-radius: 0; box-shadow: none; }
+.vb-word { font-size: clamp(32px, 5vw, 46px); padding-right: .12em; }

@@ -1,3 +1,3 @@
-# vocalbooth.nyc
+# Connect (vocalbooth.nyc)
 
-The Vocal Booth website, served by GitHub Pages from the `docs/` folder.
+The Connect website (Connect Studio and Connect Talent), served by GitHub Pages from the `docs/` folder.
